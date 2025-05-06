@@ -1,0 +1,91 @@
+#card{
+    margin-top:50px;
+    
+    background-color: pink;
+
+
+    .card_one{
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        margin-bottom: 50px;
+       
+       
+        
+      &:hover .car{
+        opacity: 1;
+      
+
+
+
+
+      }
+
+      a{
+        padding: 6px 90px;
+        background-color:  rgb(138, 16, 63);
+        color: white;
+        border-radius: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+     
+
+        
+      }
+     
+
+        
+      
+      .car{
+        height: 330px;
+        width: 327px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+
+    }
+
+}
+.backtop{
+  height: 60px;
+  width: 60px;
+  background-color:green;
+  bottom: 100px;
+  right: 30px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  position: fixed;
+ 
+  
+  cursor: pointer;
+  
+  animation: arrow 2s;
+
+
+  i{
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+   
+  }
+}
+@keyframes arrow{
+
+  50%{
+    transform: scale(1);
+
+  }
+  100%{
+    transform: scale(0);
+
+  }
+}
